@@ -1,0 +1,129 @@
+.grid-container {
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 8% 27% 3.5fr 1.5fr;
+    grid-template-areas: 
+    "griot bl nav nav nav nav"
+    "bg bg bg bg bg bg"
+    ". shows shows shows shows ."
+    "map map iss iss iss iss";
+}
+
+.area-border {
+    border: 2px solid black;
+}
+
+.bl {
+    grid-area: bl;
+    background-color: black;
+}
+
+.griot {
+    grid-area: griot;
+    background-color: black;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: black;
+}
+
+.navparts {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.bg {
+    grid-area: bg;
+    background-image: url(../theater-image-background.png);
+    background-size: 100% 100%;
+}
+
+.fs {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* .bgpic {
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#bgpic {
+    max-width: 100%;
+} */
+
+.shows {
+    grid-area: shows;
+}
+
+/* .show-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "pic info read"
+    "pic info read"
+    "pic info read"
+    "pic info read";
+} */
+
+.godplz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.piccaontainer {
+    max-height: 50px;
+}
+
+.pic {
+    grid-area: pic;
+    display: flex;
+}
+
+.info {
+    grid-area: info;
+}
+
+.read {
+    grid-area: read;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.map {
+    grid-area: map;
+    background-color: black;
+    color: white;
+    background-image: url(../image.gif);
+    background-size: contain;
+}
+
+.iss {
+    grid-area: iss;
+    background-color: black;
+}
