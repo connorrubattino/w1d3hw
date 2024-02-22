@@ -63,9 +63,18 @@
     margin: auto;
 }
 
+
+
 #bgpic {
     max-width: 100%;
 } */
+
+.apr20 {
+    border: 2px solid black;
+    background-color: lightgray;
+    margin-top: 75px;
+    padding-left: 25px;
+}
 
 .shows {
     grid-area: shows;
@@ -128,7 +137,15 @@ button {
     background-size: contain;
 } */
 
+.mappy{
+    padding: 50px;
+}
+
 .iss {
     grid-area: iss;
     background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
 }
