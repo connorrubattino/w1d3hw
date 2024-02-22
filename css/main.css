@@ -87,6 +87,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .show1 {
@@ -121,11 +122,11 @@ button {
 
 .map {
     grid-area: map;
-    background-color: black;
-    color: white;
+    background-color: black;}
+    /* color: white;
     background-image: url(../image.gif);
     background-size: contain;
-}
+} */
 
 .iss {
     grid-area: iss;
