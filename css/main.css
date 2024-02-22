@@ -52,6 +52,11 @@
     color: white;
     display: flex;
     justify-content: center;
+    font-size: xx-large;
+}
+
+.fs1 {
+    padding-top: 50px;
 }
 
 /* .bgpic {
@@ -70,7 +75,7 @@
 } */
 
 .apr20 {
-    border: 2px solid black;
+    border: 4px;
     background-color: lightgray;
     margin-top: 75px;
     padding-left: 25px;
