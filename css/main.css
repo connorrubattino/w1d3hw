@@ -154,3 +154,12 @@ button {
     justify-content: space-around;
     padding-top: 25px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-size: large;
+}
